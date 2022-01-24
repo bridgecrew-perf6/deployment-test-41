@@ -6,10 +6,13 @@ let config = {
 
 switch(env.toUpperCase()){
     case "STAGE":
-        config.baseURL = "https://stage.skillsunion.com"
+        config.baseURL = "https://stage.skillsunion.com";
         break;
     case "PRODUCTION":
-        config.baseURL = "https://skillsunion.com"
+        config.baseURL = "https://skillsunion.com";
+        break;
+    default:
+        config.baseURL = "http://localhost/";
         break;
 }
 
