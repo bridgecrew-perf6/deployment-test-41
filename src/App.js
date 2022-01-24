@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <div>{config}</div>
+        <div>{config.baseURL}</div>
       </header>
     </div>
   );
