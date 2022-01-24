@@ -5,13 +5,17 @@ let config = {
 }
 
 switch(env.toUpperCase()){
+    
     case "STAGE":
+        console.log(env.toUpperCase());
         config.baseURL = "https://stage.skillsunion.com";
         break;
     case "PRODUCTION":
+        console.log(env.toUpperCase());
         config.baseURL = "https://skillsunion.com";
         break;
     default:
+        console.log(env.toUpperCase());
         config.baseURL = "http://localhost/";
         break;
 }
