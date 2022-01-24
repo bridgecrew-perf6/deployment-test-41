@@ -1,7 +1,7 @@
 {
   "name": "deployment-test",
   "version": "0.1.0",
-  "public": true,
+  "private": true,
   "homepage": "https://thenhao.github.io/deployment-test",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
